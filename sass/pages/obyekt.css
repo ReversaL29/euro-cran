@@ -44,4 +44,55 @@
 .loader--hidden {
   opacity: 0;
   visibility: hidden;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.specialMachines {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.specialMachines__nav {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.specialMachines__nav span {
+  color: #898989;
+}
+.specialMachines__title {
+  margin: 63px 0 80px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 141.69%;
+  color: #2D2D2D;
+}
+.specialMachines #objects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29px;
+}
+.specialMachines #objects .card {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 142.19%;
+  color: #2D2D2D;
+  max-width: 370px;
+  border-radius: 0px;
+  border: none;
+}
+.specialMachines #objects .card :hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.specialMachines #objects .card p {
+  padding: 15px 32px 25px 22px;
 }/*# sourceMappingURL=obyekt.css.map */
